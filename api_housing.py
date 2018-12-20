@@ -23,7 +23,7 @@ def predict():
             print(json_)
             query = pd.DataFrame(json_)
 
-            #prediction = lm.predict(query)
+            prediction = lm.predict(query)
             std = std
             print(std)
 			
